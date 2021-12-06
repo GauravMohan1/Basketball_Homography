@@ -1,4 +1,4 @@
-# Converting TV Broadcast footage of game into a 2D Visualization
+# Creating a Basketball Simulation Minimap from Single View Broadcast Data Using Applied Homography
 
 
 ## Initial Process
