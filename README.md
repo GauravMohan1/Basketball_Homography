@@ -24,6 +24,7 @@ Notice the blue points next to each player. In order to do this we need to take 
 
 3. After the images folder is populated we grab each image and take a set of pixel values from the center of the image. We find the RGB values for each pixel coordinate and threshold the values to classify it as either the home team color or away team color. We take 5 pixel values, thus if the classified pixel colors are: blue, red, red, red, blue, the image will be classified as red. The get_info() and create_rbg_csv() accomplishes this task.
 4. From there our final function drawPlayersOnCourt takes the data from the previous functions including transformed player coordinates to draw circles representing players onto the basektball court. Each frame is passed through these functions and written to an MP4 file using opencv. 
+5. A find_closest_player function maps the original points to the closest neighbor and draws a line to them to show the distance traveled.
 
 
 ## Demo Output
