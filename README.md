@@ -1,5 +1,6 @@
 # Creating a Basketball Simulation Minimap from Single View Broadcast Data Using Applied Homography
 
+## Full Article Published: https://medium.com/mlearning-ai/developing-a-basketball-minimap-for-player-tracking-using-broadcast-data-and-applied-homography-433183b9b995
 
 ## Initial Process
 1. The inital input video is placed in the videos folder.
